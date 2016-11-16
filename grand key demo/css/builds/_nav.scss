@@ -1,0 +1,102 @@
+
+/* Scss Document */
+
+/*//////////// Template 2 ////////////*/
+
+.benvenue .navbar {
+	margin: 0!important
+}
+.benvenue .navbar-default .navbar-collapse, .benvenue .navbar-default .navbar-form {
+ border-color: $no-color;
+}
+.benvenue .navbar-default {
+ background-color: $light-color;
+}
+.benvenue ul.nav.navbar-nav {
+	width: 100%;
+	float: none;
+	text-align: center;
+}
+.benvenue .nav-center li {
+	float: none;
+	display: inline-block;
+ *display:inline;
+	zoom: 1
+}
+
+.benvenue .navbar-nav a {
+ font:100% $font-stack-serif;
+	cursor: pointer;
+ text-transform: $allcaps;
+ color: $med-dark-color;
+}
+.benvenue nav .navbar-nav li.active a, .benvenue nav .navbar-nav li a:hover {
+ background-color: $dark-color!important;
+	transition: all .3s ease-in-out;
+ color: $light-color!important;
+}
+
+.benvenue nav .navbar-nav li.active {
+ background-color: $no-color;
+}
+.benvenue nav .navbar-nav li.active a {
+ color: $dark-color;
+}
+
+@media(min-width:992px) {
+.benvenue .navbar-header {
+	float: left;
+	text-align: center;
+	height: 50px;
+	width: 250px;
+	margin: 20px 10px 20px 70px!important;
+ background-color: $no-color;
+}
+.benvenue .navbar-brand {
+	text-align: center;
+	margin: 0;
+	margin-left: 0!important;
+	float: none;
+	height: auto;
+	line-height: 50px;
+	padding: 0;
+	display: block
+}
+.benvenue .navbar-header .navbar-brand.logo-center {
+	text-align: center
+}
+.benvenue .navbar-header .navbar-brand.logo-center img {
+	text-align: left;
+	display: inline;
+	vertical-align: middle
+}
+.benvenue nav {
+	min-height: 8vh!important;
+	border-bottom: $border-bottom!important
+}
+.benvenue div#bs-navbar-collapse-1 {
+	margin-top: 2vh;
+}
+.benvenue .nav-center {
+	max-width: 1140px;
+	margin: 0 auto
+}
+.benvenue .nav-right {
+	float: right;
+	position: absolute;
+	right: 70px;
+	height: 60px;
+	top: 10px;
+	padding-top: 10px;
+}
+}
+
+@media (max-width:992px) {
+.benvenue .navbar-brand {
+	padding: 0 20px
+}
+.benvenue .nav-justified li:nth-child(4) {
+	display: none
+}
+}
+/*//////////// END Template 2 ////////////*/

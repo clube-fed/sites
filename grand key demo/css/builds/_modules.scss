@@ -1,0 +1,62 @@
+/* Scss Document */
+
+/*////////// TEMPLATE 2 /////////*/
+
+/* CUSTOMIZE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.benvenue .carousel {
+  height: 50vh;
+}
+/* Declare heights because of positioning of img element */
+.benvenue .carousel .item {
+  height: 50vh;
+  background-color: $light-color;
+}
+.benvenue .carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 50vh;
+}
+.benvenue .carousel-control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 10%;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, 0);
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+.benvenue .carousel-control.right {
+    right: 0;
+	left:auto
+}
+.benvenue .carousel-control.left, .benvenue .carousel-control.right {
+	background: $no-color;
+	background-image: $no-image;	
+}
+.benvenue span.nc-icon-outline.arrows-1_minimal-left, .benvenue span.nc-icon-outline.arrows-1_minimal-right {
+	top:45%;
+	position:absolute
+}
+
+@media (max-width:600px) {
+.benvenue .right.carousel-control {right:10%}
+}
+
+@media (min-width:600px) and (max-width:992px) {
+.benvenue .right.carousel-control {right:5%}
+}
+
+
+/*////////// END TEMPLATE 2 /////////*/
+
+

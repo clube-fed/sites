@@ -1,0 +1,148 @@
+
+/* Scss Document */
+body {
+	font-family: $font-stack-sans;
+	font-size:14px;
+	color: $dark-color;
+	background-color:$light-color;
+	line-height: 1.875;
+	letter-spacing: .01em
+}
+
+.dark-color {color: $dark-color;}
+.med-dark-color {color: $med-dark-color}
+.med-color {color: $med-color;}
+.med-light-color {color: $med-light-color;}
+.light-color {color: $light-color;}
+
+h1, h2, h3, h4, h5, h6 {
+	font: 100% $font-stack-serif;
+}
+h1 {
+	font-size: 280%
+}
+h2 {
+	font-size: 240%
+}
+h3 {
+	font-size: 180%
+}
+h4 {
+	font-size: 150%
+}
+h5 {
+	font-size: 100%
+}
+h6 {
+	font-size: 90%;
+	letter-spacing: .2em;
+}
+.serif-font {
+	font-family: $font-stack-serif;
+}
+.sans-font {
+	font-family: $font-stack-sans;
+}
+.font-xs {
+	font-size: $font-xs;
+}
+.font-sm {
+	font-size: $font-sm;
+}
+.font-md {
+	font-size: $font-md;
+}
+.font-lg {
+	font-size: $font-lg;
+}
+.allcaps {text-transform:$allcaps;}
+
+.btn-outline {
+	border: $btn-border-lt;
+	border-radius: 0px;
+	color: #fff;
+	text-transform: $allcaps;
+	font-family: $font-stack-sans;
+	font-size: $font-sm;
+	padding: 15px 50px;
+	letter-spacing: .15em;
+	font-weight:bold
+}
+.btn-outline:hover {
+	border: $btn-border-lt;
+	color: $dark-color;
+	background:$light-color;
+	transition:all .3s ease-in-out
+}
+
+.btn-outline-dk {
+	border: $btn-border-dk;
+	border-radius: 0px;
+	color: $dark-color;
+	text-transform: $allcaps;
+	font-family: $font-stack-sans;
+	font-size: $font-sm;
+	padding: 15px 50px;
+	letter-spacing: .15em;
+	font-weight:bold
+}
+.btn-outline-dk:hover {
+	border: $btn-border-dk;
+	color: $light-color;
+	background:$dark-color;
+	transition:all .3s ease-in-out
+}
+
+.btn-accent {
+	border:0px none;
+	background: $accent-color;
+	border-radius: 0px;
+	color: $light-color;
+	text-transform: $allcaps;
+	font-family: $font-stack-sans;
+	font-size: $font-sm;
+	padding: 15px 30px;
+	letter-spacing: .15em;
+	font-weight:bold
+}
+
+.btn-accent:hover {
+	border:0px none;
+	background: #015931;
+	border-radius: 0px;
+	color: $light-color;
+	text-transform: $allcaps;
+	font-family: $font-stack-sans;
+	font-size: $font-sm;
+	padding: 15px 30px;
+	letter-spacing: .15em;
+	font-weight:bold
+}
+
+.btn-dark {
+	border: $btn-border-dk;
+	background: $dark-color;
+	border-radius: 0px;
+	color: $light-color;
+	text-transform: $allcaps;
+	font-family: $font-stack-sans;
+	font-size: $font-sm;
+	padding: 15px 30px;
+	letter-spacing: .15em;
+	font-weight:bold
+}
+.btn-dark:hover {
+	border: $btn-border-dk;
+	color: $dark-color;
+	background:$light-color;
+	transition:all .3s ease-in-out
+}
+
+/* image effects */
+.gray{  -webkit-filter: grayscale(1);  filter: grayscale(1);}
+.gray50{  -webkit-filter: grayscale(.5);  filter: grayscale(.5);}
+
+
+
+/* footer */
+.spacer {padding:0 15px;}

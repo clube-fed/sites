@@ -1,0 +1,23 @@
+
+/* Scss Document */
+
+/* Scss imports */
+@import "_reset.scss";
+@import "_variables.scss";
+@import "_nav.scss";
+/*@import "_flex-nav.scss";*/
+@import "_modules.scss";
+@import "_base.scss";
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto|Roboto+Condensed');
+
+/* footer */
+
+.template1 footer {
+	background: $dark-color;
+	min-height: 11vh;
+	padding: 30px 0
+}
+.template1 footer p {
+	color: $light-color;
+	padding: 10px 0
+}

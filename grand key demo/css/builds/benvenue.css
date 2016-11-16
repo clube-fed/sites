@@ -1,0 +1,491 @@
+/* Scss Document */
+/* Scss imports */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* Site Variables */
+/* END Site Variables */
+/* Scss Document */
+/*//////////// Template 2 ////////////*/
+.benvenue .navbar {
+  margin: 0 !important; }
+
+.benvenue .navbar-default .navbar-collapse, .benvenue .navbar-default .navbar-form {
+  border-color: transparent !important; }
+
+.benvenue .navbar-default {
+  background-color: #fff; }
+
+.benvenue ul.nav.navbar-nav {
+  width: 100%;
+  float: none;
+  text-align: center; }
+
+.benvenue .nav-center li {
+  float: none;
+  display: inline-block;
+  *display: inline;
+  zoom: 1; }
+
+.benvenue .navbar-nav a {
+  font: 100% "Playfair Display", serif;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #535353; }
+
+.benvenue nav .navbar-nav li.active a, .benvenue nav .navbar-nav li a:hover {
+  background-color: #333 !important;
+  transition: all .3s ease-in-out;
+  color: #fff !important; }
+
+.benvenue nav .navbar-nav li.active {
+  background-color: transparent !important; }
+
+.benvenue nav .navbar-nav li.active a {
+  color: #333; }
+
+@media (min-width: 992px) {
+  .benvenue .navbar-header {
+    float: left;
+    text-align: center;
+    height: 50px;
+    width: 250px;
+    margin: 20px 10px 20px 70px !important;
+    background-color: transparent !important; }
+  .benvenue .navbar-brand {
+    text-align: center;
+    margin: 0;
+    margin-left: 0 !important;
+    float: none;
+    height: auto;
+    line-height: 50px;
+    padding: 0;
+    display: block; }
+  .benvenue .navbar-header .navbar-brand.logo-center {
+    text-align: center; }
+  .benvenue .navbar-header .navbar-brand.logo-center img {
+    text-align: left;
+    display: inline;
+    vertical-align: middle; }
+  .benvenue nav {
+    min-height: 8vh !important;
+    border-bottom: 1px solid #d7d7d7 !important; }
+  .benvenue div#bs-navbar-collapse-1 {
+    margin-top: 2vh; }
+  .benvenue .nav-center {
+    max-width: 1140px;
+    margin: 0 auto; }
+  .benvenue .nav-right {
+    float: right;
+    position: absolute;
+    right: 70px;
+    height: 60px;
+    top: 10px;
+    padding-top: 10px; } }
+
+@media (max-width: 992px) {
+  .benvenue .navbar-brand {
+    padding: 0 20px; }
+  .benvenue .nav-justified li:nth-child(4) {
+    display: none; } }
+
+/*//////////// END Template 2 ////////////*/
+/*@import "_flex-nav.scss";*/
+/* Scss Document */
+/*////////// TEMPLATE 2 /////////*/
+/* CUSTOMIZE CAROUSEL
+-------------------------------------------------- */
+/* Carousel base class */
+.benvenue .carousel {
+  height: 50vh; }
+
+/* Declare heights because of positioning of img element */
+.benvenue .carousel .item {
+  height: 50vh;
+  background-color: #fff; }
+
+.benvenue .carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 50vh; }
+
+.benvenue .carousel-control {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 10%;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  background-color: transparent;
+  filter: alpha(opacity=50);
+  opacity: .5; }
+
+.benvenue .carousel-control.right {
+  right: 0;
+  left: auto; }
+
+.benvenue .carousel-control.left, .benvenue .carousel-control.right {
+  background: transparent !important;
+  background-image: none !important; }
+
+.benvenue span.nc-icon-outline.arrows-1_minimal-left, .benvenue span.nc-icon-outline.arrows-1_minimal-right {
+  top: 45%;
+  position: absolute; }
+
+@media (max-width: 600px) {
+  .benvenue .right.carousel-control {
+    right: 10%; } }
+
+@media (min-width: 600px) and (max-width: 992px) {
+  .benvenue .right.carousel-control {
+    right: 5%; } }
+
+/*////////// END TEMPLATE 2 /////////*/
+/* Scss Document */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+  line-height: 1.875;
+  letter-spacing: .01em; }
+
+.dark-color {
+  color: #333; }
+
+.med-dark-color {
+  color: #535353; }
+
+.med-color {
+  color: #969696; }
+
+.med-light-color {
+  color: #f2f2f2; }
+
+.light-color {
+  color: #fff; }
+
+h1, h2, h3, h4, h5, h6 {
+  font: 100% "Playfair Display", serif; }
+
+h1 {
+  font-size: 280%; }
+
+h2 {
+  font-size: 240%; }
+
+h3 {
+  font-size: 180%; }
+
+h4 {
+  font-size: 150%; }
+
+h5 {
+  font-size: 100%; }
+
+h6 {
+  font-size: 90%;
+  letter-spacing: .2em; }
+
+.serif-font {
+  font-family: "Playfair Display", serif; }
+
+.sans-font {
+  font-family: "Open Sans", sans-serif; }
+
+.font-xs {
+  font-size: 11px; }
+
+.font-sm {
+  font-size: 12px; }
+
+.font-md {
+  font-size: 14px; }
+
+.font-lg {
+  font-size: 16px; }
+
+.allcaps {
+  text-transform: uppercase; }
+
+.btn-outline {
+  border: 2px solid #fff;
+  border-radius: 0px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  padding: 15px 50px;
+  letter-spacing: .15em;
+  font-weight: bold; }
+
+.btn-outline:hover {
+  border: 2px solid #fff;
+  color: #333;
+  background: #fff;
+  transition: all .3s ease-in-out; }
+
+.btn-outline-dk {
+  border: 2px solid #333;
+  border-radius: 0px;
+  color: #333;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  padding: 15px 50px;
+  letter-spacing: .15em;
+  font-weight: bold; }
+
+.btn-outline-dk:hover {
+  border: 2px solid #333;
+  color: #fff;
+  background: #333;
+  transition: all .3s ease-in-out; }
+
+.btn-accent {
+  border: 0px none;
+  background: #00703c;
+  border-radius: 0px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  padding: 15px 30px;
+  letter-spacing: .15em;
+  font-weight: bold; }
+
+.btn-accent:hover {
+  border: 0px none;
+  background: #015931;
+  border-radius: 0px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  padding: 15px 30px;
+  letter-spacing: .15em;
+  font-weight: bold; }
+
+.btn-dark {
+  border: 2px solid #333;
+  background: #333;
+  border-radius: 0px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  padding: 15px 30px;
+  letter-spacing: .15em;
+  font-weight: bold; }
+
+.btn-dark:hover {
+  border: 2px solid #333;
+  color: #333;
+  background: #fff;
+  transition: all .3s ease-in-out; }
+
+/* image effects */
+.gray {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1); }
+
+.gray50 {
+  -webkit-filter: grayscale(0.5);
+  filter: grayscale(0.5); }
+
+/* footer */
+.spacer {
+  padding: 0 15px; }
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("http://clubessential.s3.amazonaws.com/fonts/icomoon/icomoon.eot?1gp89v");
+  src: url("http://clubessential.s3.amazonaws.com/fonts/icomoon/icomoon.eot?1gp89v#iefix") format("embedded-opentype"), url("http://clubessential.s3.amazonaws.com/fonts/icomoon/icomoon.ttf?1gp89v") format("truetype"), url("http://clubessential.s3.amazonaws.com/fonts/icomoon/icomoon.woff?1gp89v") format("woff"), url("http://clubessential.s3.amazonaws.com/fonts/icomoon/icomoon.svg?1gp89v#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-google-plus:before {
+  content: "\eeea"; }
+
+.icon-facebook2:before {
+  content: "\eef0"; }
+
+.icon-instagram:before {
+  content: "\eef1"; }
+
+.icon-twitter:before {
+  content: "\eef5"; }
+
+h1 {
+  font-size: 36px;
+  font-family: "Playfair Display", serif;
+  color: #535353;
+  line-height: 1; }
+
+h2 {
+  font-size: 25px;
+  font-family: "Playfair Display", serif;
+  color: #535353;
+  line-height: 1.2; }
+
+h3 {
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  color: #000;
+  line-height: 1.5; }
+
+h4 {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  color: #969696;
+  line-height: 1.667; }
+
+h5 {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  color: #00703c;
+  line-height: 1.875; }
+
+/* header */
+nav .nav-right .social-links {
+  float: left;
+  line-height: 50px;
+  margin-right: 25px; }
+
+nav .nav-right .social-links a {
+  color: #535353;
+  margin: 1px 3px;
+  text-decoration: none; }
+
+nav .nav-right .social-links a:hover {
+  color: #969696;
+  transition: color .5s ease-in-out; }
+
+/* home content */
+.home-content, .templates {
+  padding: 50px 0; }
+
+.home-content h2 {
+  margin-top: 10px; }
+
+.home-callouts div, .templates div {
+  padding-left: 0;
+  padding-right: 0;
+  min-height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-right: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.templates a {
+  min-height: 200px;
+  display: inline-block; }
+
+.templates a div {
+  min-height: 200px; }
+
+.home-callouts div:nth-child(3) {
+  padding-left: 0;
+  padding-right: 0px;
+  border-right: 0px none; }
+
+.home-callouts div h2, .templates div h4 {
+  color: #fff; }
+
+.home-callouts-sm {
+  margin-bottom: 60px; }
+
+.home-callouts-sm div img {
+  max-height: 200px;
+  max-width: 370px;
+  margin-bottom: 25px; }
+
+.home-callouts-sm h3 {
+  margin-bottom: 25px;
+  color: #535353;
+  font-weight: 100;
+  letter-spacing: .02em; }
+
+.home-callouts-sm p {
+  color: #535353;
+  line-height: 1.6em;
+  font-weight: 300;
+  font-size: 14px;
+  color: #969696; }
+
+/* footer */
+.benvenue footer {
+  background: #333;
+  min-height: 11vh;
+  padding: 40px; }
+
+.benvenue footer .allcaps {
+  letter-spacing: 0.2em; }
+
+.benvenue footer p {
+  padding: 10px 0; }

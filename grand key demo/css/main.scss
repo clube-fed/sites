@@ -1,0 +1,103 @@
+/* Scss imports */
+@import "_reset.scss";
+@import "_variables.scss";
+@import "_nav.scss";
+/*@import "_flex-nav.scss";*/
+@import "_modules.scss";
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto|Roboto+Condensed');
+
+/* Scss Document */
+body {
+	font-family: $font-stack-sans;
+	font-size:14px;
+	color: $dark-color;
+	background-color:$light-color;
+	letter-spacing: .01em
+}
+
+.dark-color {color: $dark-color;}
+.med-dark-color {color: $med-dark-color}
+.med-color {color: $med-color;}
+.med-light-color {color: $med-light-color;}
+.light-color {color: $light-color;}
+
+h1, h2, h3, h4, h5, h6 {
+	font: 100% $font-stack-serif;
+}
+h1 {
+	font-size: 300%
+}
+h2 {
+	font-size: 250%
+}
+h3 {
+	font-size: 200%
+}
+h4 {
+	font-size: 150%
+}
+h5 {
+	font-size: 100%
+}
+h6 {
+	font-size: 90%;
+	letter-spacing: .2em;
+}
+.serif-font {
+	font-family: $font-stack-serif;
+}
+.sans-font {
+	font-family: $font-stack-sans;
+}
+.font-sm {
+	font-size: $font-sm;
+}
+.font-md {
+	font-size: $font-md;
+}
+.font-lg {
+	font-size: $font-lg;
+}
+
+.btn-outline {
+	border: $btn-border-lt;
+	border-radius: 0px;
+	color: #fff;
+	text-transform: $allcaps;
+	font-family: $font-stack-sans;
+	font-size: $font-sm;
+	padding: 15px 50px;
+	letter-spacing: .15em;
+	font-weight:bold
+}
+.btn-outline:hover {
+	border: $btn-border-lt;
+	color: $dark-color;
+	background:$light-color;
+	transition:all .3s ease-in-out
+}
+
+.btn-dark {
+	border: $btn-border-dk;
+	border-radius: 0px;
+	color: #fff;
+	text-transform: $allcaps;
+	font-family: $font-stack-sans;
+	font-size: $font-sm;
+	padding: 15px 50px;
+	letter-spacing: .15em;
+	font-weight:bold
+}
+.btn-dark:hover {
+	border: $btn-border-lt;
+	color: $dark-color;
+	background:$light-color;
+	transition:all .3s ease-in-out
+}
+
+/* image effects */
+.gray{  -webkit-filter: grayscale(1);  filter: grayscale(1);}
+.gray50{  -webkit-filter: grayscale(.5);  filter: grayscale(.5);}
+
+
+
